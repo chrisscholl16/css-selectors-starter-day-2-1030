@@ -713,7 +713,7 @@ ul li::marker {
     select the SVGs in the software section using the ID, tag name, and descendant selectors
 */
 /* ----- */
-#software svg {
+#software > svg {
     stroke: var(--dk-gray);
 }
 
